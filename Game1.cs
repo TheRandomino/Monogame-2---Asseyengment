@@ -57,7 +57,9 @@ namespace Monogame_2___Asseyengment
 
             _spriteBatch.Begin();
 
-            _spriteBatch
+            _spriteBatch.Draw(eyePartsTexture, new Rectangle(window.Width / 2 - 100, window.Height / 2 - 150 + 100, 200, 100), Color.White);
+            _spriteBatch.Draw(eyePartsTexture, new Rectangle(window.Width / 2 - 50, window.Height / 2 - 50, 100, 100), Color.Red);
+            _spriteBatch.Draw(eyePartsTexture, new Rectangle(window.Width / 2 - 37, window.Height / 2 - 37, 75, 75), Color.Black);
 
             _spriteBatch.End();
             // TODO: Add your drawing code here
